@@ -13,6 +13,15 @@
                     <h1 id="header">My Day</h1>
                 </header>
             </section>
+            <section class="filter-section">
+                <label for="filter-category">Filter by category: </label>
+                <select id="filter-category" onchange="filterTasksByCategory()">
+                    <option value="all">All</option>
+                    <option value="home">Home</option>
+                    <option value="school">School</option>
+                    <option value="scouting">Scouting</option>
+                </select>
+            </section>
             <section class="task-list" id="task-list">
             
             </section>   
@@ -21,6 +30,12 @@
             <div class="foot">
                 <button id="add-task-btn" onclick="addTask()">+ Add a task</button>
                 <input type="date" id="task-date" placeholder="Select date">
+                <label for="category">Category: </label>
+                <select id="category">
+                    <option value="home">Home</option>
+                    <option value="school">School</option>
+                    <option value="scouting">Scouting</option>
+                </select>
             </div>
         </footer>
         <script src="script.js"></script>
