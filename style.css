@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Plik style.css */
 
 
@@ -83,89 +83,38 @@ body {
 
 #task-date {
     margin-left: 10px;
-=======
-/* Plik style.css */
-
-
-main {
-    margin-bottom: 60px;
 }
 
-body {
-    background-image: url(https://wallpapers.com/images/featured/sky-mvehfqz6w2ges2dj.webp);
-    /*background-size: 100% auto; */
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    font-family: Arial, sans-serif;
+.category-home {
+    background-color: goldenrod;
 }
-#header {
-    max-width: 100vw;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 50%);
-    border-radius: 10px;
-    color: black;
-    text-align: left;
-    margin-left: 15px;
+
+.category-school {
+    background-color: lightcoral;
 }
-.task {
-    width: 90%;
-    height: 40px;
-    background-color: white;
-    color: black;
-    margin: 15px;
+
+.category-scouting {
+    background-color: limegreen;
+}
+
+.filter-section {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.task h3 {
-    margin: 0;
-    padding: 0;
-    flex-grow: 1;
-    text-align: left;
-}
-.task input[type="checkbox"] {
-    margin-right: 10px;
-}
-.task.completed h3 {
-    text-decoration: line-through;
-}
-.task .delete-btn {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-.foot {
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    height: 40px;
-    width: 90%;
+    justify-content: flex-end;
     padding: 10px;
     margin: 15px;
-    background-color: grey;
+    background-color: lightgray;
     border-radius: 10px;
-    color: white;
-    position: fixed;
-    bottom: 0; 
-    
 }
-#current-date {
-    margin-left: 10px;
-}
-#add-task-btn {
-    cursor: pointer;
-    color: white;
-    background-color: grey;
-    padding: 5px 10px;
-    border: none;
+
+.category-label {
+    color: black;
+    font-weight: bold;
     border-radius: 5px;
-}
-#task-date {
-    margin-left: 10px;
->>>>>>> f4fc022e383121034e756a9176d44a32ba64f900
+    font-size: 0.8em;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    flex-grow: 0;
+    border: 2px solid;
+    width: fit-content; /* szerokość dopasowuje sie do treści */
 }
